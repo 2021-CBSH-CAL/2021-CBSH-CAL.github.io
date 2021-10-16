@@ -1,4 +1,4 @@
-const EarthStart = true;
+const EarthStart = false;
 const BOARD_WIDTH = [7,4,9,14];
 let MAX_WIDTH = 0;
 const BOARD_HEIGHT = BOARD_WIDTH.length;
