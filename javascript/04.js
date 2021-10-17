@@ -425,8 +425,8 @@ class Board {
         }
         
         for(let i = 0; i < BOARD_HEIGHT; i++) {
-			this.tiles[i][0] = new Tile(ROOK, WHITE)
-			this.tiles[i][BOARD_WIDTH[i]-1] = new Tile(ROOK, BLACK)
+			this.tiles[i][BOARD_WIDTH[i]-1] = new Tile(ROOK, WHITE)
+			this.tiles[i][0] = new Tile(ROOK, BLACK)
 		}
 
         this.validMoves = [];
